@@ -3,7 +3,11 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+<<<<<<< HEAD
 db.properties
+=======
+db.propertities
+>>>>>>> f68fc7ceb1f8583adc73f0b490dc6b8682afd1b8
 
 ### STS ###
 .apt_generated
