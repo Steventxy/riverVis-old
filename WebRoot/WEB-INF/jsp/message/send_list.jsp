@@ -71,6 +71,9 @@
 									<th class="center">是否发送</th>														
 									<th class="center">备注</th>
 									<th class="center">删除</th>
+
+									
+							
 									</tr>
 								</thead>
 								<tbody>
@@ -87,7 +90,7 @@
 						                <td class='center'>${send.remark}</td>
 										<td class="center">
 											<div class="hidden-sm hidden-xs btn-group">
-												<a class="btn btn-xs btn-danger" onclick="delRole(${send.smid});">
+												<a class="btn btn-xs btn-danger" onclick="delMsg(${send.smid});">
 													<i class="ace-icon fa fa-trash-o bigger-120" title="删除"></i>
 												</a>
 											</div>
@@ -179,17 +182,17 @@
 			});
 			
 });
-function delRole(smid){
-	bootbox.confirm("确定要删除吗?", function(result) {
-		if(result) {
-			top.jzts();
-			var url = "<%=basePath%>smsbroad/listSendMessage.do?smid="+smid;
-			$.get(url,function(data){
-				nextPage(${page.currentPage});
+		function delMsg(smid){
+			bootbox.confirm("确定要删除吗?", function(result) {
+				if(result) {
+					top.jzts();
+					var url = "<%=basePath%>smsbroad/deleteMsg.do?smid="+smid;
+					$.get(url,function(data){
+						nextPage(${page.currentPage});
+					});
+				};
 			});
-		};
-	});
-}
+		}
 	</script>
 </body>
 </html>
