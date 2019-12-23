@@ -1,5 +1,6 @@
 package com.infopublic.controller;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -171,7 +172,22 @@ public class SmsBroadController extends BaseController {
 		return AppUtil.returnObject(new PageData(), map);
 	}
 
-	
+	/**删除短信
+	 * @param out
+	 * @throws Exception
+	 */
+	@RequestMapping(value="/deleteMsg")
+	public void deleteRole(PrintWriter out) throws Exception{
+		PageData pd = new PageData();
+		pd = this.getPageData();
+		messageService.deleteMsg(pd.getString("smid")); //要删除的用户id
+		out.write("success");
+		out.close();
+		//插入日志
+		logService.saveLog(Const.LOGTYPE[1],"收件箱","删除",this.getRemortIP(),pd.getString("smid"));
+	}
+
+
 	/**
 	 * 发件箱列表
 	 * @return
