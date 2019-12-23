@@ -10,7 +10,7 @@
 
   ![pic pwd1](https://Steventxy.github.io/pic/thq1.png)
 
-  ![pic thq3](F:\Destop\pic\thq3.png)
+  ![pic pwd1](https://Steventxy.github.io/pic/thq4.png)
 
 * 彭文迪
 
