@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ab43f5e6-1fef-4d05-90c5-c7783b6ded3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index/default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/index/default.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +207,8 @@
       <workItem from="1576982390582" duration="1838000" />
       <workItem from="1576998245156" duration="1603000" />
       <workItem from="1577004342979" duration="7191000" />
-      <workItem from="1577083133849" duration="17415000" />
+      <workItem from="1577083133849" duration="18753000" />
+      <workItem from="1577113013910" duration="1353000" />
     </task>
     <servers />
   </component>
@@ -217,7 +220,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
