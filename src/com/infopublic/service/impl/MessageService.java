@@ -1,4 +1,4 @@
-package com.infopublic.service;
+package com.infopublic.service.impl;
 
 import java.util.List;
 
@@ -23,11 +23,17 @@ public class MessageService implements MessageManager {
 		// TODO Auto-generated method stub
 		return (List<PageData>)dao.findForList("MessageMapper.getSendMessagePage", page);
 	}
-	
+
+
 	@SuppressWarnings("unchecked")
 	public List<PageData> listReceiveMessage(Page page) throws Exception {
 		// TODO Auto-generated method stub
 		return (List<PageData>)dao.findForList("MessageMapper.getReceiveMessagePage", page);
+	}
+
+	@Override
+	public void deleteMsg(String smid) throws Exception {
+		dao.delete("MessageMapper.deleteMsg", smid);
 	}
 
 	@Override
