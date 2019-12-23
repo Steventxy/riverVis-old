@@ -4,14 +4,6 @@ import java.util.List;
 
 import com.infopublic.entity.Page;
 import com.infopublic.util.PageData;
-import java.awt.Button;
-import java.awt.CardLayout;
-import java.awt.Frame;
-import java.awt.Panel;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 
 
 /**
@@ -26,7 +18,15 @@ public interface MessageManager {
 	 * @throws Exception
 	 */
 
-	public List<PageData> listSendMessage(Page page) throws Exception; 
+	public List<PageData> listSendMessage(Page page) throws Exception;
+
+	/**
+	 * 删除短信
+	 * @param smid
+	 * @throws Exception
+	 */
+	public void deleteMsg(String smid) throws Exception;
+
 	/**
 	 * 获取收件箱短信
 	 * @param page
@@ -40,7 +40,6 @@ public interface MessageManager {
 	 * @param pd
 	 * @throws Exception
 	 */
-
 	public void addSendMessage(PageData pd) throws Exception;
 	public void addSendMessage1(List<PageData> pdlist) throws Exception; 
 	
