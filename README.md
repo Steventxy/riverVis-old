@@ -6,11 +6,15 @@
 
 * 唐焕棋
 
-  1. 提示无法关闭
+  1. 关闭“欢迎使用”提示
 
   ![pic pwd1](https://Steventxy.github.io/pic/thq1.png)
 
   ![pic pwd1](https://Steventxy.github.io/pic/thq4.png)
+
+  ------
+
+  
 
 * 彭文迪
 
@@ -20,4 +24,6 @@
 
   ![pic pwd1](https://Steventxy.github.io/pic/pwd2.png)
 
+  ------
+  
   
