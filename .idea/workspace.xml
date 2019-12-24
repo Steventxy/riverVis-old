@@ -7,18 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab43f5e6-1fef-4d05-90c5-c7783b6ded3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/META-INF/RiverVis2.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/log/log_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/jsp/log/log_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RiverVis2_Web_exploded/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RiverVis2_Web_exploded/WEB-INF/classes/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RiverVis2_Web_exploded/WEB-INF/jsp/index/default.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RiverVis2_Web_exploded/WEB-INF/jsp/index/default.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/RiverVis2_Web_exploded/WEB-INF/jsp/message/send_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RiverVis2_Web_exploded/WEB-INF/jsp/message/send_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/mybatis/mapper/LogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mybatis/mapper/LogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/infopublic/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/infopublic/controller/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/infopublic/service/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/infopublic/service/LogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/infopublic/service/impl/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/infopublic/service/impl/LogService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,6 +212,7 @@
       <workItem from="1577113013910" duration="1353000" />
       <workItem from="1577176535593" duration="17000" />
       <workItem from="1577176987108" duration="357000" />
+      <workItem from="1577179410776" duration="49000" />
     </task>
     <servers />
   </component>

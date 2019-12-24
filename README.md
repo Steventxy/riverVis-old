@@ -8,9 +8,9 @@
 
   1. 关闭“欢迎使用”提示
 
-  ![pic pwd1](https://Steventxy.github.io/pic/thq1.png)
+  ![pic thq1](https://Steventxy.github.io/pic/thq1.png)
 
-  ![pic pwd1](https://Steventxy.github.io/pic/thq4.png)
+  ![pic thq2](https://Steventxy.github.io/pic/thq4.png)
 
   ------
 
@@ -24,6 +24,18 @@
 
   ![pic pwd1](https://Steventxy.github.io/pic/pwd2.png)
 
-  ------
+* 余颖锋
+
+  修复系统管理页面
+
+  ![pic yyf1](https://steventxy.github.io/pic/yyf6.png)
+
+  ![pic yyf2](https://steventxy.github.io/pic/yyf7.png)
+
   
   
+* 唐嵩
+
+* 伍文平
+
+* 肖霆锋
