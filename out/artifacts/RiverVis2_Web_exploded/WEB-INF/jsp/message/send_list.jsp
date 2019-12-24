@@ -94,7 +94,6 @@
 													<i class="ace-icon fa fa-trash-o bigger-120" title="删除"></i>
 												</a>
 											</div>
-
 									</tr>
 									</c:forEach>
 									</c:when>
