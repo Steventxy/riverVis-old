@@ -81,7 +81,9 @@
 	<script type="text/javascript">
 		$(top.hangge());
 
-
+		$(".close").click(function (){
+			$("#tip").hide(500);
+		});
 
 	</script>
 <script type="text/javascript" src="static/ace/js/jquery.js"></script>
